@@ -1,0 +1,27 @@
+{
+  "$description": "Typographie du projet. Tailles en rem.",
+  "fontFamily": {
+    "brand": {
+      "value": "system-ui, sans-serif"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 400
+    },
+    "bold": {
+      "value": 700
+    }
+  },
+  "fontSize": {
+    "small": {
+      "value": "0.85rem"
+    },
+    "body": {
+      "value": "1rem"
+    },
+    "title": {
+      "value": "1.25rem"
+    }
+  }
+}

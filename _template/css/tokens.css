@@ -1,0 +1,26 @@
+/* Variables CSS du projet. Préfixe --ds- pour ne pas heurter celles de l'application. */
+:root {
+  --font-brand: system-ui, sans-serif; /* remplacer par la police du projet */
+
+  /* couleurs : --ds-<groupe>-<nom> */
+  --ds-brand-primary: #000000;
+  --ds-surface-page: #ffffff;
+  --ds-text-main: #111111;
+
+  /* rayons et ombres */
+  --ds-radius-base: 10px;
+  --ds-shadow-card: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+  /* tactile */
+  --ds-touch-min: 44px;
+}
+
+/* Anneau de focus par défaut */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--ds-brand-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,23 @@
+{
+  "$description": "Couleurs du projet. Valeurs hexadécimales ; « usage » = occurrences mesurées (facultatif).",
+  "colors": {
+    "brand": {
+      "primary": {
+        "value": "#000000",
+        "role": "Couleur principale"
+      }
+    },
+    "surface": {
+      "page": {
+        "value": "#FFFFFF",
+        "role": "Fond de page"
+      }
+    },
+    "text": {
+      "main": {
+        "value": "#111111",
+        "role": "Texte principal"
+      }
+    }
+  }
+}
