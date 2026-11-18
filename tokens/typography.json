@@ -1,0 +1,111 @@
+{
+  "$description": "Typographie de Poulayo. Toute l'interface est en rem : changer la taille de base de la page (100 / 115 / 130 %) agrandit tout le texte.",
+  "fontFamily": {
+    "brand": {
+      "value": "'Nunito', 'Segoe UI', sans-serif",
+      "role": "Police unique de l'application"
+    },
+    "mono": {
+      "value": "monospace",
+      "role": "Identifiants techniques"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 400,
+      "role": "Rare"
+    },
+    "medium": {
+      "value": 500,
+      "usage": 58
+    },
+    "semibold": {
+      "value": 600,
+      "usage": 242
+    },
+    "bold": {
+      "value": 700,
+      "usage": 218
+    },
+    "extrabold": {
+      "value": 800,
+      "usage": 147,
+      "role": "Titres, boutons, libellés forts"
+    },
+    "heavy": {
+      "value": 850,
+      "usage": 56,
+      "role": "Titres de cartes mobiles (Nunito variable accepte les valeurs intermédiaires)"
+    },
+    "black": {
+      "value": 900,
+      "usage": 20,
+      "role": "Gros chiffres"
+    }
+  },
+  "fontSize": {
+    "$unit": "rem (1rem = 16 px au réglage « Normal »)",
+    "caption": {
+      "value": "0.72rem",
+      "usage": 25,
+      "role": "Étiquettes, pastilles"
+    },
+    "small": {
+      "value": "0.8rem",
+      "usage": 131,
+      "role": "Aide, détails de ligne"
+    },
+    "small-2": {
+      "value": "0.82rem",
+      "usage": 108
+    },
+    "label": {
+      "value": "0.85rem",
+      "usage": 100,
+      "role": "Libellés de champs, texte secondaire"
+    },
+    "body-sm": {
+      "value": "0.9rem",
+      "usage": 26
+    },
+    "body": {
+      "value": "1rem",
+      "usage": 52,
+      "role": "Texte courant, champs (16 px minimum sur tactile : évite le zoom iOS)"
+    },
+    "title-sm": {
+      "value": "1.05rem",
+      "usage": 16
+    },
+    "title": {
+      "value": "1.25rem",
+      "usage": 32,
+      "role": "Titres d'écran"
+    },
+    "headline": {
+      "value": "1.6rem",
+      "usage": 15,
+      "role": "Gros chiffres (effectif, solde)"
+    },
+    "display": {
+      "value": "2.2rem",
+      "role": "Chiffres clés de l'accueil"
+    }
+  },
+  "lineHeight": {
+    "base": {
+      "value": 1.5
+    }
+  },
+  "letterSpacing": {
+    "overline": {
+      "value": "0.08em",
+      "role": "Titres de groupe en majuscules"
+    }
+  },
+  "textSizeSetting": {
+    "normal": "100%",
+    "large": "115%",
+    "xlarge": "130%"
+  }
+}

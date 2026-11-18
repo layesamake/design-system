@@ -1,0 +1,376 @@
+{
+  "$description": "Couleurs de l'application Poulayo. Valeurs hexadécimales ; « usage » = nombre d'occurrences mesurées dans le code au moment de l'extraction.",
+  "colors": {
+    "brand": {
+      "green": {
+        "value": "#193C2B",
+        "role": "Vert de marque : texte principal, boutons primaires, couleur du thème (theme-color)"
+      },
+      "green-hover": {
+        "value": "#103626",
+        "role": "Survol du vert de marque"
+      },
+      "green-deep": {
+        "value": "#0C2B1D",
+        "role": "Fond du menu latéral (bureau) et titres des fenêtres sombres"
+      },
+      "green-forest": {
+        "value": "#146B45",
+        "role": "Vert d'interface historique : cases validées, accents, dégradé d'accueil",
+        "usage": 49
+      },
+      "green-moss": {
+        "value": "#376348",
+        "role": "Vert mousse (pages publiques)"
+      },
+      "green-light": {
+        "value": "#EAF1E9",
+        "role": "Fond clair teinté de vert : puces actives, survols"
+      },
+      "orange": {
+        "value": "#E46D2E",
+        "role": "Orange de marque : action d'accent, rubrique active, bouton « + »"
+      },
+      "orange-text": {
+        "value": "#B04A0C",
+        "role": "Orange assombri pour du TEXTE (contraste ≥ 4,5:1 sur fond clair)"
+      },
+      "orange-cta": {
+        "value": "#C34D0D",
+        "role": "Fond des gros boutons d'action sur fond clair (texte blanc)"
+      },
+      "orange-cta-hover": {
+        "value": "#A93F08",
+        "role": "Survol du bouton d'action orange",
+        "usage": 4
+      },
+      "amber": {
+        "value": "#F59E0B",
+        "role": "Bouton d'appel à l'action sur fond vert foncé (texte #451A03)",
+        "usage": 5
+      }
+    },
+    "surface": {
+      "paper": {
+        "value": "#FFFDF8",
+        "role": "Fond de page (blanc cassé chaud)",
+        "usage": 11
+      },
+      "card": {
+        "value": "#FFFFFF",
+        "role": "Cartes et fenêtres",
+        "usage": 25
+      },
+      "main": {
+        "value": "#F8FAF9",
+        "role": "Fond de la zone de contenu (bureau)"
+      },
+      "cream": {
+        "value": "#F8F4EA",
+        "role": "Crème des pages publiques"
+      },
+      "sand": {
+        "value": "#F6F0E4",
+        "role": "Pastille d'illustration, fonds doux",
+        "usage": 23
+      },
+      "sand-border": {
+        "value": "#D9D2BF",
+        "role": "Bordure des boutons secondaires chauds",
+        "usage": 22
+      },
+      "tint-green": {
+        "value": "#F4F8F4",
+        "role": "Fond vert très pâle (tuiles, résumés)",
+        "usage": 4
+      }
+    },
+    "text": {
+      "main": {
+        "value": "#193C2B",
+        "role": "Texte principal (= vert de marque)"
+      },
+      "muted": {
+        "value": "#62726B",
+        "role": "Texte secondaire (contraste 5:1 sur #FFFDF8)"
+      },
+      "muted-alt": {
+        "value": "#566A5F",
+        "role": "Texte secondaire plus marqué (libellés, étiquettes)",
+        "usage": 76
+      },
+      "muted-strong": {
+        "value": "#3F4F48",
+        "role": "Texte secondaire en mode « contraste renforcé » du système"
+      },
+      "on-dark": {
+        "value": "#FFFFFF",
+        "role": "Texte sur fond vert foncé (utiliser rgba blanc ≥ 85 % pour le secondaire)"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#E0E7E3",
+        "role": "Bordure standard des cartes et champs"
+      },
+      "soft": {
+        "value": "#E2E9E4",
+        "role": "Séparateur discret",
+        "usage": 7
+      },
+      "field": {
+        "value": "#CFDCD3",
+        "role": "Bordure des champs et boutons secondaires verts",
+        "usage": 4
+      },
+      "strong": {
+        "value": "#8A9A92",
+        "role": "Bordure en mode « contraste renforcé »"
+      }
+    },
+    "gray": {
+      "50": {
+        "value": "#F9FAFB",
+        "usage": 12
+      },
+      "100": {
+        "value": "#F3F4F6",
+        "usage": 7
+      },
+      "200": {
+        "value": "#E5E7EB",
+        "usage": 15
+      },
+      "300": {
+        "value": "#D1D5DB",
+        "usage": 17
+      },
+      "500": {
+        "value": "#6B7280",
+        "usage": 10
+      },
+      "600": {
+        "value": "#4B5563",
+        "usage": 11
+      }
+    },
+    "success": {
+      "fg": {
+        "value": "#2E7D32",
+        "role": "Succès : texte et pastilles",
+        "usage": 19
+      },
+      "strong": {
+        "value": "#15803D",
+        "role": "Succès : chiffres clés",
+        "usage": 20
+      },
+      "dark": {
+        "value": "#166534",
+        "role": "Succès : texte sur fond pâle",
+        "usage": 31
+      },
+      "bg": {
+        "value": "#E8F5E9",
+        "role": "Succès : fond pâle",
+        "usage": 37
+      },
+      "bg-alt": {
+        "value": "#DCFCE7",
+        "role": "Succès : fond pâle (variante)",
+        "usage": 6
+      },
+      "border": {
+        "value": "#86EFAC",
+        "role": "Succès : bordure",
+        "usage": 5
+      }
+    },
+    "danger": {
+      "fg": {
+        "value": "#C62828",
+        "role": "Erreur, suppression, perte",
+        "usage": 47
+      },
+      "alert": {
+        "value": "#D32F2F",
+        "role": "Pastille d'alerte urgente",
+        "usage": 4
+      },
+      "dark": {
+        "value": "#991B1B",
+        "role": "Erreur : texte sur fond pâle",
+        "usage": 19
+      },
+      "bg": {
+        "value": "#FFEBEE",
+        "role": "Erreur : fond pâle",
+        "usage": 15
+      },
+      "bg-alt": {
+        "value": "#FEE2E2",
+        "role": "Erreur : fond pâle (variante)",
+        "usage": 10
+      },
+      "border": {
+        "value": "#FCA5A5",
+        "role": "Erreur : bordure",
+        "usage": 5
+      }
+    },
+    "warning": {
+      "fg": {
+        "value": "#E65100",
+        "role": "Avertissement : texte, soldes dus",
+        "usage": 31
+      },
+      "amber": {
+        "value": "#D97706",
+        "role": "Avertissement : icône, bordure",
+        "usage": 14
+      },
+      "dark": {
+        "value": "#92400E",
+        "role": "Avertissement : texte sur fond pâle",
+        "usage": 7
+      },
+      "text": {
+        "value": "#5C3B00",
+        "role": "Texte du bandeau « à surveiller »"
+      },
+      "bg": {
+        "value": "#FFF3E0",
+        "role": "Avertissement : fond pâle",
+        "usage": 15
+      },
+      "bg-alert": {
+        "value": "#FFF8E6",
+        "role": "Fond du bandeau « à surveiller »"
+      },
+      "border": {
+        "value": "#F1C768",
+        "role": "Bordure du bandeau « à surveiller »"
+      }
+    },
+    "info": {
+      "fg": {
+        "value": "#1565C0",
+        "role": "Information : texte, liens",
+        "usage": 9
+      },
+      "strong": {
+        "value": "#1E40AF",
+        "role": "Information : texte foncé",
+        "usage": 14
+      },
+      "dark": {
+        "value": "#0D47A1",
+        "role": "Information : titres",
+        "usage": 7
+      },
+      "bg": {
+        "value": "#E3F2FD",
+        "role": "Information : fond pâle",
+        "usage": 9
+      },
+      "bg-alt": {
+        "value": "#DBEAFE",
+        "role": "Information : fond pâle (variante)",
+        "usage": 6
+      },
+      "border": {
+        "value": "#BFDBFE",
+        "role": "Information : bordure",
+        "usage": 10
+      }
+    },
+    "accent-purple": {
+      "fg": {
+        "value": "#5E35B1",
+        "role": "Prospects (contacts)",
+        "usage": 6
+      },
+      "bg": {
+        "value": "#EDE7F6",
+        "role": "Prospects : fond pâle",
+        "usage": 5
+      }
+    },
+    "action-tones": {
+      "red-bg": {
+        "value": "#FDECEA",
+        "role": "Bouton rapide Mortalité : fond"
+      },
+      "red-fg": {
+        "value": "#8F1D12",
+        "role": "Bouton rapide Mortalité : texte"
+      },
+      "red-border": {
+        "value": "#F0B8B2",
+        "role": "Bouton rapide Mortalité : bordure"
+      },
+      "green-bg": {
+        "value": "#E4F3E8",
+        "role": "Bouton rapide Vente : fond"
+      },
+      "green-fg": {
+        "value": "#14562F",
+        "role": "Bouton rapide Vente : texte"
+      },
+      "green-border": {
+        "value": "#B8DEC3",
+        "role": "Bouton rapide Vente : bordure"
+      },
+      "orange-bg": {
+        "value": "#FFF1E3",
+        "role": "Bouton rapide Nourriture / Œufs : fond"
+      },
+      "orange-fg": {
+        "value": "#8A3A0A",
+        "role": "Bouton rapide Nourriture / Œufs : texte"
+      },
+      "orange-border": {
+        "value": "#F4C9A5",
+        "role": "Bouton rapide Nourriture / Œufs : bordure"
+      },
+      "blue-bg": {
+        "value": "#E8F0FA",
+        "role": "Bouton rapide Dépense : fond"
+      },
+      "blue-fg": {
+        "value": "#1B4A85",
+        "role": "Bouton rapide Dépense : texte"
+      },
+      "blue-border": {
+        "value": "#BCD0EC",
+        "role": "Bouton rapide Dépense : bordure"
+      }
+    },
+    "illustration": {
+      "comb-red": {
+        "value": "#E24B4A",
+        "role": "Crête et barbillons des illustrations d'oiseaux",
+        "usage": 5
+      },
+      "beak-gold": {
+        "value": "#F2A52A",
+        "role": "Bec et pattes des illustrations d'oiseaux",
+        "usage": 6
+      },
+      "feather-shade": {
+        "value": "#E7E4DA",
+        "role": "Ombre des plumes blanches"
+      }
+    }
+  },
+  "gradients": {
+    "welcome": {
+      "value": "linear-gradient(135deg, #146B45 0%, #0A3C26 100%)",
+      "role": "Bannière de bienvenue (vert)"
+    },
+    "action-orange": {
+      "value": "linear-gradient(135deg, #FFF3E8, #FDE6D0)",
+      "role": "Carte « tournée du matin » (fond orange pâle, bordure #F4C9A5)"
+    }
+  }
+}

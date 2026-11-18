@@ -1,0 +1,507 @@
+{
+  "library": "lucide-react",
+  "version": "0.475.0",
+  "license": "ISC",
+  "icons": [
+    {
+      "name": "alert-circle",
+      "file": "lucide/alert-circle.svg",
+      "lucideComponent": "AlertCircle"
+    },
+    {
+      "name": "alert-triangle",
+      "file": "lucide/alert-triangle.svg",
+      "lucideComponent": "AlertTriangle"
+    },
+    {
+      "name": "archive",
+      "file": "lucide/archive.svg",
+      "lucideComponent": "Archive"
+    },
+    {
+      "name": "arrow-down-left",
+      "file": "lucide/arrow-down-left.svg",
+      "lucideComponent": "ArrowDownLeft"
+    },
+    {
+      "name": "arrow-down-right",
+      "file": "lucide/arrow-down-right.svg",
+      "lucideComponent": "ArrowDownRight"
+    },
+    {
+      "name": "arrow-left",
+      "file": "lucide/arrow-left.svg",
+      "lucideComponent": "ArrowLeft"
+    },
+    {
+      "name": "arrow-left-right",
+      "file": "lucide/arrow-left-right.svg",
+      "lucideComponent": "ArrowLeftRight"
+    },
+    {
+      "name": "arrow-right",
+      "file": "lucide/arrow-right.svg",
+      "lucideComponent": "ArrowRight"
+    },
+    {
+      "name": "arrow-up-right",
+      "file": "lucide/arrow-up-right.svg",
+      "lucideComponent": "ArrowUpRight"
+    },
+    {
+      "name": "banknote",
+      "file": "lucide/banknote.svg",
+      "lucideComponent": "Banknote"
+    },
+    {
+      "name": "bar-chart-2",
+      "file": "lucide/bar-chart-2.svg",
+      "lucideComponent": "BarChart2"
+    },
+    {
+      "name": "bell",
+      "file": "lucide/bell.svg",
+      "lucideComponent": "Bell"
+    },
+    {
+      "name": "bird",
+      "file": "lucide/bird.svg",
+      "lucideComponent": "Bird"
+    },
+    {
+      "name": "bold",
+      "file": "lucide/bold.svg",
+      "lucideComponent": "Bold"
+    },
+    {
+      "name": "building-2",
+      "file": "lucide/building-2.svg",
+      "lucideComponent": "Building2"
+    },
+    {
+      "name": "calendar",
+      "file": "lucide/calendar.svg",
+      "lucideComponent": "Calendar"
+    },
+    {
+      "name": "calendar-check",
+      "file": "lucide/calendar-check.svg",
+      "lucideComponent": "CalendarCheck"
+    },
+    {
+      "name": "calendar-clock",
+      "file": "lucide/calendar-clock.svg",
+      "lucideComponent": "CalendarClock"
+    },
+    {
+      "name": "camera",
+      "file": "lucide/camera.svg",
+      "lucideComponent": "Camera"
+    },
+    {
+      "name": "check",
+      "file": "lucide/check.svg",
+      "lucideComponent": "Check"
+    },
+    {
+      "name": "check-circle-2",
+      "file": "lucide/check-circle-2.svg",
+      "lucideComponent": "CheckCircle2"
+    },
+    {
+      "name": "check-square",
+      "file": "lucide/check-square.svg",
+      "lucideComponent": "CheckSquare"
+    },
+    {
+      "name": "chevron-down",
+      "file": "lucide/chevron-down.svg",
+      "lucideComponent": "ChevronDown"
+    },
+    {
+      "name": "chevron-right",
+      "file": "lucide/chevron-right.svg",
+      "lucideComponent": "ChevronRight"
+    },
+    {
+      "name": "chevron-up",
+      "file": "lucide/chevron-up.svg",
+      "lucideComponent": "ChevronUp"
+    },
+    {
+      "name": "circle-play",
+      "file": "lucide/circle-play.svg",
+      "lucideComponent": "CirclePlay"
+    },
+    {
+      "name": "clipboard-pen",
+      "file": "lucide/clipboard-pen.svg",
+      "lucideComponent": "ClipboardPen"
+    },
+    {
+      "name": "clock",
+      "file": "lucide/clock.svg",
+      "lucideComponent": "Clock"
+    },
+    {
+      "name": "copy",
+      "file": "lucide/copy.svg",
+      "lucideComponent": "Copy"
+    },
+    {
+      "name": "credit-card",
+      "file": "lucide/credit-card.svg",
+      "lucideComponent": "CreditCard"
+    },
+    {
+      "name": "crown",
+      "file": "lucide/crown.svg",
+      "lucideComponent": "Crown"
+    },
+    {
+      "name": "dollar-sign",
+      "file": "lucide/dollar-sign.svg",
+      "lucideComponent": "DollarSign"
+    },
+    {
+      "name": "download",
+      "file": "lucide/download.svg",
+      "lucideComponent": "Download"
+    },
+    {
+      "name": "edit",
+      "file": "lucide/edit.svg",
+      "lucideComponent": "Edit"
+    },
+    {
+      "name": "egg",
+      "file": "lucide/egg.svg",
+      "lucideComponent": "Egg"
+    },
+    {
+      "name": "egg-fried",
+      "file": "lucide/egg-fried.svg",
+      "lucideComponent": "EggFried"
+    },
+    {
+      "name": "eye",
+      "file": "lucide/eye.svg",
+      "lucideComponent": "Eye"
+    },
+    {
+      "name": "file-spreadsheet",
+      "file": "lucide/file-spreadsheet.svg",
+      "lucideComponent": "FileSpreadsheet"
+    },
+    {
+      "name": "file-text",
+      "file": "lucide/file-text.svg",
+      "lucideComponent": "FileText"
+    },
+    {
+      "name": "flame",
+      "file": "lucide/flame.svg",
+      "lucideComponent": "Flame"
+    },
+    {
+      "name": "folder-open",
+      "file": "lucide/folder-open.svg",
+      "lucideComponent": "FolderOpen"
+    },
+    {
+      "name": "gift",
+      "file": "lucide/gift.svg",
+      "lucideComponent": "Gift"
+    },
+    {
+      "name": "heart-pulse",
+      "file": "lucide/heart-pulse.svg",
+      "lucideComponent": "HeartPulse"
+    },
+    {
+      "name": "help-circle",
+      "file": "lucide/help-circle.svg",
+      "lucideComponent": "HelpCircle"
+    },
+    {
+      "name": "image",
+      "file": "lucide/image.svg",
+      "lucideComponent": "Image"
+    },
+    {
+      "name": "image-plus",
+      "file": "lucide/image-plus.svg",
+      "lucideComponent": "ImagePlus"
+    },
+    {
+      "name": "info",
+      "file": "lucide/info.svg",
+      "lucideComponent": "Info"
+    },
+    {
+      "name": "italic",
+      "file": "lucide/italic.svg",
+      "lucideComponent": "Italic"
+    },
+    {
+      "name": "key-round",
+      "file": "lucide/key-round.svg",
+      "lucideComponent": "KeyRound"
+    },
+    {
+      "name": "layers",
+      "file": "lucide/layers.svg",
+      "lucideComponent": "Layers"
+    },
+    {
+      "name": "layout-grid",
+      "file": "lucide/layout-grid.svg",
+      "lucideComponent": "LayoutGrid"
+    },
+    {
+      "name": "life-buoy",
+      "file": "lucide/life-buoy.svg",
+      "lucideComponent": "LifeBuoy"
+    },
+    {
+      "name": "link-2",
+      "file": "lucide/link-2.svg",
+      "lucideComponent": "Link2"
+    },
+    {
+      "name": "list",
+      "file": "lucide/list.svg",
+      "lucideComponent": "List"
+    },
+    {
+      "name": "lock",
+      "file": "lucide/lock.svg",
+      "lucideComponent": "Lock"
+    },
+    {
+      "name": "lock-keyhole",
+      "file": "lucide/lock-keyhole.svg",
+      "lucideComponent": "LockKeyhole"
+    },
+    {
+      "name": "log-out",
+      "file": "lucide/log-out.svg",
+      "lucideComponent": "LogOut"
+    },
+    {
+      "name": "mail",
+      "file": "lucide/mail.svg",
+      "lucideComponent": "Mail"
+    },
+    {
+      "name": "map-pin",
+      "file": "lucide/map-pin.svg",
+      "lucideComponent": "MapPin"
+    },
+    {
+      "name": "menu",
+      "file": "lucide/menu.svg",
+      "lucideComponent": "Menu"
+    },
+    {
+      "name": "message-circle",
+      "file": "lucide/message-circle.svg",
+      "lucideComponent": "MessageCircle"
+    },
+    {
+      "name": "mic",
+      "file": "lucide/mic.svg",
+      "lucideComponent": "Mic"
+    },
+    {
+      "name": "minus",
+      "file": "lucide/minus.svg",
+      "lucideComponent": "Minus"
+    },
+    {
+      "name": "more-horizontal",
+      "file": "lucide/more-horizontal.svg",
+      "lucideComponent": "MoreHorizontal"
+    },
+    {
+      "name": "pencil",
+      "file": "lucide/pencil.svg",
+      "lucideComponent": "Pencil"
+    },
+    {
+      "name": "phone",
+      "file": "lucide/phone.svg",
+      "lucideComponent": "Phone"
+    },
+    {
+      "name": "plus",
+      "file": "lucide/plus.svg",
+      "lucideComponent": "Plus"
+    },
+    {
+      "name": "receipt",
+      "file": "lucide/receipt.svg",
+      "lucideComponent": "Receipt"
+    },
+    {
+      "name": "refresh-cw",
+      "file": "lucide/refresh-cw.svg",
+      "lucideComponent": "RefreshCw"
+    },
+    {
+      "name": "rotate-ccw",
+      "file": "lucide/rotate-ccw.svg",
+      "lucideComponent": "RotateCcw"
+    },
+    {
+      "name": "rotate-cw",
+      "file": "lucide/rotate-cw.svg",
+      "lucideComponent": "RotateCw"
+    },
+    {
+      "name": "save",
+      "file": "lucide/save.svg",
+      "lucideComponent": "Save"
+    },
+    {
+      "name": "search",
+      "file": "lucide/search.svg",
+      "lucideComponent": "Search"
+    },
+    {
+      "name": "share-2",
+      "file": "lucide/share-2.svg",
+      "lucideComponent": "Share2"
+    },
+    {
+      "name": "shield-check",
+      "file": "lucide/shield-check.svg",
+      "lucideComponent": "ShieldCheck"
+    },
+    {
+      "name": "skull",
+      "file": "lucide/skull.svg",
+      "lucideComponent": "Skull"
+    },
+    {
+      "name": "sliders-horizontal",
+      "file": "lucide/sliders-horizontal.svg",
+      "lucideComponent": "SlidersHorizontal"
+    },
+    {
+      "name": "smartphone",
+      "file": "lucide/smartphone.svg",
+      "lucideComponent": "Smartphone"
+    },
+    {
+      "name": "sparkles",
+      "file": "lucide/sparkles.svg",
+      "lucideComponent": "Sparkles"
+    },
+    {
+      "name": "sprout",
+      "file": "lucide/sprout.svg",
+      "lucideComponent": "Sprout"
+    },
+    {
+      "name": "square",
+      "file": "lucide/square.svg",
+      "lucideComponent": "Square"
+    },
+    {
+      "name": "star",
+      "file": "lucide/star.svg",
+      "lucideComponent": "Star"
+    },
+    {
+      "name": "stethoscope",
+      "file": "lucide/stethoscope.svg",
+      "lucideComponent": "Stethoscope"
+    },
+    {
+      "name": "sunrise",
+      "file": "lucide/sunrise.svg",
+      "lucideComponent": "Sunrise"
+    },
+    {
+      "name": "syringe",
+      "file": "lucide/syringe.svg",
+      "lucideComponent": "Syringe"
+    },
+    {
+      "name": "tag",
+      "file": "lucide/tag.svg",
+      "lucideComponent": "Tag"
+    },
+    {
+      "name": "tractor",
+      "file": "lucide/tractor.svg",
+      "lucideComponent": "Tractor"
+    },
+    {
+      "name": "trash-2",
+      "file": "lucide/trash-2.svg",
+      "lucideComponent": "Trash2"
+    },
+    {
+      "name": "trending-up",
+      "file": "lucide/trending-up.svg",
+      "lucideComponent": "TrendingUp"
+    },
+    {
+      "name": "user-check",
+      "file": "lucide/user-check.svg",
+      "lucideComponent": "UserCheck"
+    },
+    {
+      "name": "user-plus",
+      "file": "lucide/user-plus.svg",
+      "lucideComponent": "UserPlus"
+    },
+    {
+      "name": "users",
+      "file": "lucide/users.svg",
+      "lucideComponent": "Users"
+    },
+    {
+      "name": "utensils",
+      "file": "lucide/utensils.svg",
+      "lucideComponent": "Utensils"
+    },
+    {
+      "name": "wallet",
+      "file": "lucide/wallet.svg",
+      "lucideComponent": "Wallet"
+    },
+    {
+      "name": "wallet-cards",
+      "file": "lucide/wallet-cards.svg",
+      "lucideComponent": "WalletCards"
+    },
+    {
+      "name": "warehouse",
+      "file": "lucide/warehouse.svg",
+      "lucideComponent": "Warehouse"
+    },
+    {
+      "name": "wheat",
+      "file": "lucide/wheat.svg",
+      "lucideComponent": "Wheat"
+    },
+    {
+      "name": "x",
+      "file": "lucide/x.svg",
+      "lucideComponent": "X"
+    },
+    {
+      "name": "xcircle",
+      "file": "lucide/xcircle.svg",
+      "lucideComponent": "XCircle"
+    },
+    {
+      "name": "zap",
+      "file": "lucide/zap.svg",
+      "lucideComponent": "Zap"
+    }
+  ]
+}

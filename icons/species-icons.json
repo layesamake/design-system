@@ -1,0 +1,45 @@
+{
+  "viewBox": "0 0 64 64",
+  "icons": [
+    {
+      "kind": "poulet",
+      "label": "Poulet de chair",
+      "file": "species/poulet.svg"
+    },
+    {
+      "kind": "goliath",
+      "label": "Poulet fermier",
+      "file": "species/goliath.svg"
+    },
+    {
+      "kind": "pondeuse",
+      "label": "Poule pondeuse",
+      "file": "species/pondeuse.svg"
+    },
+    {
+      "kind": "caille-chair",
+      "label": "Caille de chair",
+      "file": "species/caille-chair.svg"
+    },
+    {
+      "kind": "caille-ponte",
+      "label": "Caille pondeuse",
+      "file": "species/caille-ponte.svg"
+    },
+    {
+      "kind": "pintade",
+      "label": "Pintade",
+      "file": "species/pintade.svg"
+    },
+    {
+      "kind": "dindon",
+      "label": "Dindon",
+      "file": "species/dindon.svg"
+    },
+    {
+      "kind": "canard",
+      "label": "Canard",
+      "file": "species/canard.svg"
+    }
+  ]
+}
