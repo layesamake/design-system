@@ -1,0 +1,79 @@
+{
+  "$description": "Typographie relevée sur mbayoumkeur.shop : titres en serif expressif, texte en sans-serif lisible.",
+  "fontFamily": {
+    "display": {
+      "value": "'Fraunces', Georgia, serif",
+      "role": "Titres (graisse 800), gros chiffres"
+    },
+    "sans": {
+      "value": "'Source Sans 3', system-ui, sans-serif",
+      "role": "Texte courant, boutons, navigation"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 400,
+      "role": "Texte courant"
+    },
+    "semibold": {
+      "value": 600,
+      "role": "Boutons, libellés"
+    },
+    "bold": {
+      "value": 700,
+      "role": "Élément actif de la navigation"
+    },
+    "display-extrabold": {
+      "value": 800,
+      "role": "Titres Fraunces (variable 100–900)"
+    }
+  },
+  "fontSize": {
+    "$unit": "rem (1rem = 16 px)",
+    "nav": {
+      "value": "0.8125rem",
+      "role": "Barre du bas (13 px)"
+    },
+    "caption": {
+      "value": "0.75rem"
+    },
+    "small": {
+      "value": "0.875rem",
+      "role": "Pastilles, champs de recherche (14 px)"
+    },
+    "body": {
+      "value": "1rem",
+      "role": "Texte courant, interligne 1.5"
+    },
+    "lead": {
+      "value": "1.125rem"
+    },
+    "title-sm": {
+      "value": "1.25rem"
+    },
+    "title": {
+      "value": "1.5rem"
+    },
+    "h2": {
+      "value": "1.875rem",
+      "role": "Titres de section (Fraunces 800)"
+    },
+    "h1": {
+      "value": "clamp(1.55rem, 3.6vw, 3rem)",
+      "role": "Titre d'accueil ; 2.9rem sur mobile large"
+    },
+    "display": {
+      "value": "3.75rem",
+      "role": "Très gros titres (jusqu'à 6rem)"
+    }
+  },
+  "lineHeight": {
+    "body": {
+      "value": 1.5
+    },
+    "heading": {
+      "value": 0.98,
+      "role": "Titre d'accueil très serré"
+    }
+  }
+}

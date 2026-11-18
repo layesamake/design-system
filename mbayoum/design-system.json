@@ -1,0 +1,39 @@
+{
+  "id": "mbayoum",
+  "name": "Mbayoum",
+  "description": "Vert feuille très profond, orange carotte et jaune soleil, titres serif expressifs et formes en pastilles arrondies : une boutique de plantes chaleureuse et gourmande, pensée pour le mobile.",
+  "version": "0.1.0",
+  "created": "2026-11-18",
+  "mood": [
+    "chaleureux",
+    "gourmand",
+    "naturel"
+  ],
+  "tags": [
+    "e-commerce",
+    "plantes",
+    "mobile-first",
+    "pastilles",
+    "ombres-en-relief"
+  ],
+  "source": {
+    "type": "inspired",
+    "url": "https://mbayoumkeur.shop/",
+    "note": "Valeurs relevées sur la feuille de style publique du site (couleurs, tailles, rayons, ombres). Logo, photos et illustrations non repris."
+  },
+  "license": "Valeurs de style inspirées d'un site tiers ; polices Fraunces et Source Sans 3 sous SIL OFL 1.1 (voir NOTICE.md)",
+  "keyColors": {
+    "vert profond": "#04481A",
+    "vert": "#3A7D04",
+    "carotte": "#FC7404",
+    "soleil": "#F2A900",
+    "fond": "#FFFFFF"
+  },
+  "fonts": [
+    "Fraunces (titres, 800)",
+    "Source Sans 3 (texte, 400/600/700)"
+  ],
+  "icons": [
+    "Emoji colorés (navigation et catégories)"
+  ]
+}

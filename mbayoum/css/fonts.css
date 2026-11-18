@@ -1,0 +1,4 @@
+/* Polices de mbayoum : Fraunces (titres) et Source Sans 3 (texte), chargées depuis Google Fonts.
+   Les deux sont sous licence SIL OFL 1.1. Pour travailler hors ligne, téléchargez les fichiers woff2
+   depuis Google Fonts (ou google-webfonts-helper) dans ../fonts/ et remplacez cet @import par des @font-face. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100..900&family=Source+Sans+3:wght@400;600;700&display=swap');

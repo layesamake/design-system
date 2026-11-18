@@ -6,6 +6,7 @@ Des design systems (polices, couleurs, icônes) à réutiliser dans mes projets.
 
 | Nom | Ambiance | Tags | Source | Aperçu |
 |---|---|---|---|---|
+| [**Mbayoum**](./mbayoum/) — Vert feuille très profond, orange carotte et jaune soleil, titres serif expressifs et formes en pastilles arrondies : une boutique de plantes chaleureuse et gourmande, pensée pour le mobile. | chaleureux, gourmand, naturel | e-commerce, plantes, mobile-first, pastilles, ombres-en-relief | Inspiré de : https://mbayoumkeur.shop/ | [voir](./mbayoum/preview/index.html) |
 | [**Poulayo**](./poulayo/) — Vert forêt profond et orange vif sur fond crème : un style chaleureux et rassurant pour une application mobile de terrain (élevage avicole). | chaleureux, naturel, rassurant | agriculture, mobile-first, gestion, accessible | Création originale | [voir](./poulayo/preview/index.html) |
 
 ## Réutiliser un design system dans un autre projet

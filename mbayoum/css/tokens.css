@@ -1,0 +1,77 @@
+/* Design tokens mbayoum : variables CSS. Chargez css/fonts.css avant ce fichier. */
+:root {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --font-brand: var(--font-sans);
+
+  /* leaf */
+  --ds-leaf-50: #F2F9EA; /* Fond des pastilles de catégories, fond doux */
+  --ds-leaf-100: #E1F1CD; /* Bordure des pastilles de catégories */
+  --ds-leaf-500: #479A05; /* Vert vif (accents, survol) */
+  --ds-leaf-600: #3A7D04; /* Vert principal : bouton « Ma sélection », bordure au focus, cartes de catégories */
+  --ds-leaf-700: #2B6403; /* Vert foncé : élément actif de la barre du bas, texte d'accent */
+  --ds-leaf-900: #04481A; /* Vert très profond : bandeau d'accueil, titres, texte sur pastilles claires */
+
+  /* accent */
+  --ds-accent-carrot: #FC7404; /* Orange carotte : appel à l'action principal (« Voir les produits ») */
+  --ds-accent-sun: #F2A900; /* Jaune soleil : accent chaud, étoiles, mises en avant */
+  --ds-accent-sun-soft: #F3D27A; /* Jaune doux : fonds et halos autour du logo */
+
+  /* neutral */
+  --ds-neutral-white: #FFFFFF; /* Fond de page, cartes, texte sur vert profond */
+  --ds-neutral-slate-100: #F1F5F9; /* Fond de section discret */
+  --ds-neutral-slate-500: #64748B; /* Texte tertiaire */
+  --ds-neutral-slate-600: #475569; /* Texte secondaire */
+  --ds-neutral-slate-700: #334155; /* Texte soutenu */
+  --ds-neutral-slate-800: #1E293B; /* Texte principal du corps de page */
+  --ds-neutral-gray-200: #E5E7EB; /* Bordure standard des champs */
+  --ds-neutral-gray-400: #9CA3AF; /* Texte d'aide dans les champs */
+  --ds-neutral-ink: #171717; /* Noir doux */
+
+  /* state */
+  --ds-state-danger: #991B1B; /* Erreur, suppression */
+  --ds-state-whatsapp: #25D366; /* Bouton de commande WhatsApp (couleur de la marque WhatsApp) */
+
+  /* rayons */
+  --ds-radius-sm: 0.375rem;
+  --ds-radius-md: 0.5rem;
+  --ds-radius-lg: 0.75rem;
+  --ds-radius-xl: 1rem;
+  --ds-radius-2xl: 1.5rem;
+  --ds-radius-3xl: 2rem;
+  --ds-radius-sheet-top: 1.75rem 1.75rem 0 0;
+  --ds-radius-pill: 9999px;
+
+  /* ombres */
+  --ds-shadow-button-3d: 0 3px 0 rgba(4, 72, 26, 0.25);
+  --ds-shadow-button-3d-dark: 0 5px 0 rgba(0, 0, 0, 0.2);
+  --ds-shadow-button-3d-darker: 0 5px 0 rgba(0, 0, 0, 0.25);
+  --ds-shadow-sheet-up: 0 -12px 40px rgba(4, 72, 26, 0.3);
+
+  /* tailles de texte */
+  --ds-text-nav: 0.8125rem;
+  --ds-text-caption: 0.75rem;
+  --ds-text-small: 0.875rem;
+  --ds-text-body: 1rem;
+  --ds-text-lead: 1.125rem;
+  --ds-text-title-sm: 1.25rem;
+  --ds-text-title: 1.5rem;
+  --ds-text-h2: 1.875rem;
+  --ds-text-h1: clamp(1.55rem, 3.6vw, 3rem);
+  --ds-text-display: 3.75rem;
+}
+
+/* Base et exemples d'usage */
+body { font-family: var(--font-sans); color: var(--ds-neutral-slate-800); background: var(--ds-neutral-white); line-height: 1.5; padding-bottom: 80px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 800; color: var(--ds-leaf-900); }
+
+.ds-pill { display: inline-flex; align-items: center; border-radius: var(--ds-radius-pill); }
+.ds-chip { display: inline-flex; align-items: center; border-radius: var(--ds-radius-pill); padding: 0 12px; min-height: 36px; background: var(--ds-leaf-50); border: 1px solid var(--ds-leaf-100); color: var(--ds-leaf-900); font-size: var(--ds-text-small); }
+.ds-btn-primary { border-radius: var(--ds-radius-pill); padding: 0 16px; min-height: 44px; background: var(--ds-leaf-600); color: #fff; font-weight: 600; box-shadow: var(--ds-shadow-button-3d); }
+.ds-btn-cta { border-radius: var(--ds-radius-pill); padding: 0 20px; min-height: 48px; background: var(--ds-accent-carrot); color: #fff; font-weight: 700; box-shadow: var(--ds-shadow-button-3d-dark); }
+.ds-search { border-radius: var(--ds-radius-pill); border: 1px solid var(--ds-neutral-gray-200); padding: 8px 16px; font-size: var(--ds-text-small); }
+.ds-search:focus { border-color: var(--ds-leaf-600); outline: none; }
+.ds-hero { background: var(--ds-leaf-900); color: #fff; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible { outline: 3px solid var(--ds-accent-carrot); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }

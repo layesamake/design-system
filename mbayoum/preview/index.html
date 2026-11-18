@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system Mbayoum</title>
+<link rel="stylesheet" href="../css/fonts.css">
+<link rel="stylesheet" href="../css/tokens.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0 auto; padding: 0 16px 60px; max-width: 1100px; font-family: var(--font-brand, system-ui, sans-serif); color: #222; background: #fff; }
+  h1 { margin: 0; padding-top: 28px; font-size: 1.8rem; }
+  h2 { margin: 40px 0 6px; font-size: 1.35rem; border-bottom: 2px solid #ddd; padding-bottom: 6px; }
+  h3 { margin: 22px 0 8px; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: #666; }
+  p.lead { color: #666; margin: 4px 0 0; }
+  nav a { margin-right: 14px; font-weight: 700; }
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .sw { border: 1px solid rgba(0,0,0,.12); border-radius: 12px; padding: 14px 10px; min-height: 76px; text-align: left; font: inherit; cursor: pointer; display: flex; flex-direction: column; gap: 2px; }
+  .sw b { font-size: .85rem; } .sw span { font-size: .78rem; font-family: monospace; }
+  .icons { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+  .ic { border: 1px solid #ddd; background: #fff; border-radius: 12px; padding: 12px 4px 8px; display: flex; flex-direction: column; align-items: center; gap: 6px; font: inherit; cursor: pointer; color: inherit; }
+  .ic svg { width: 32px; height: 32px; } .ic span { font-size: .7rem; color: #666; word-break: break-all; text-align: center; }
+  .ty { padding: 6px 0; border-bottom: 1px dashed #ddd; }
+  .ty code { display: inline-block; min-width: 150px; font-size: .72rem; color: #666; font-weight: 400; }
+  #toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: #222; color: #fff; padding: 10px 18px; border-radius: 999px; font-weight: 700; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  #toast.on { opacity: 1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Design system Mbayoum</h1>
+  <p class="lead">Touchez une couleur ou une icône pour copier sa valeur ou son nom.</p>
+  <nav aria-label="Sections"><a href="#couleurs">Couleurs</a><a href="#polices">Polices</a><a href="#exemples">Exemples</a></nav>
+</header>
+<h2 id="couleurs">Couleurs (20)</h2><h3>leaf</h3><div class="swatches"><button class="sw" style="background:#F2F9EA;color:#000" data-copy="#F2F9EA" title="Fond des pastilles de catégories, fond doux"><b>50</b><span>#F2F9EA</span></button><button class="sw" style="background:#E1F1CD;color:#000" data-copy="#E1F1CD" title="Bordure des pastilles de catégories"><b>100</b><span>#E1F1CD</span></button><button class="sw" style="background:#479A05;color:#fff" data-copy="#479A05" title="Vert vif (accents, survol)"><b>500</b><span>#479A05</span></button><button class="sw" style="background:#3A7D04;color:#fff" data-copy="#3A7D04" title="Vert principal : bouton « Ma sélection », bordure au focus, cartes de catégories"><b>600</b><span>#3A7D04</span></button><button class="sw" style="background:#2B6403;color:#fff" data-copy="#2B6403" title="Vert foncé : élément actif de la barre du bas, texte d&#x27;accent"><b>700</b><span>#2B6403</span></button><button class="sw" style="background:#04481A;color:#fff" data-copy="#04481A" title="Vert très profond : bandeau d&#x27;accueil, titres, texte sur pastilles claires"><b>900</b><span>#04481A</span></button></div><h3>accent</h3><div class="swatches"><button class="sw" style="background:#FC7404;color:#fff" data-copy="#FC7404" title="Orange carotte : appel à l&#x27;action principal (« Voir les produits »)"><b>carrot</b><span>#FC7404</span></button><button class="sw" style="background:#F2A900;color:#000" data-copy="#F2A900" title="Jaune soleil : accent chaud, étoiles, mises en avant"><b>sun</b><span>#F2A900</span></button><button class="sw" style="background:#F3D27A;color:#000" data-copy="#F3D27A" title="Jaune doux : fonds et halos autour du logo"><b>sun-soft</b><span>#F3D27A</span></button></div><h3>neutral</h3><div class="swatches"><button class="sw" style="background:#FFFFFF;color:#000" data-copy="#FFFFFF" title="Fond de page, cartes, texte sur vert profond"><b>white</b><span>#FFFFFF</span></button><button class="sw" style="background:#F1F5F9;color:#000" data-copy="#F1F5F9" title="Fond de section discret"><b>slate-100</b><span>#F1F5F9</span></button><button class="sw" style="background:#64748B;color:#fff" data-copy="#64748B" title="Texte tertiaire"><b>slate-500</b><span>#64748B</span></button><button class="sw" style="background:#475569;color:#fff" data-copy="#475569" title="Texte secondaire"><b>slate-600</b><span>#475569</span></button><button class="sw" style="background:#334155;color:#fff" data-copy="#334155" title="Texte soutenu"><b>slate-700</b><span>#334155</span></button><button class="sw" style="background:#1E293B;color:#fff" data-copy="#1E293B" title="Texte principal du corps de page"><b>slate-800</b><span>#1E293B</span></button><button class="sw" style="background:#E5E7EB;color:#000" data-copy="#E5E7EB" title="Bordure standard des champs"><b>gray-200</b><span>#E5E7EB</span></button><button class="sw" style="background:#9CA3AF;color:#000" data-copy="#9CA3AF" title="Texte d&#x27;aide dans les champs"><b>gray-400</b><span>#9CA3AF</span></button><button class="sw" style="background:#171717;color:#fff" data-copy="#171717" title="Noir doux"><b>ink</b><span>#171717</span></button></div><h3>state</h3><div class="swatches"><button class="sw" style="background:#991B1B;color:#fff" data-copy="#991B1B" title="Erreur, suppression"><b>danger</b><span>#991B1B</span></button><button class="sw" style="background:#25D366;color:#fff" data-copy="#25D366" title="Bouton de commande WhatsApp (couleur de la marque WhatsApp)"><b>whatsapp</b><span>#25D366</span></button></div><h2 id="polices">Polices</h2><h3>Graisses</h3><div class="ty" style="font-weight:400;font-size:1.1rem"><code>regular · 400</code> Le texte de démonstration</div><div class="ty" style="font-weight:600;font-size:1.1rem"><code>semibold · 600</code> Le texte de démonstration</div><div class="ty" style="font-weight:700;font-size:1.1rem"><code>bold · 700</code> Le texte de démonstration</div><div class="ty" style="font-weight:800;font-size:1.1rem"><code>display-extrabold · 800</code> Le texte de démonstration</div><h3>Échelle de tailles</h3><div class="ty" style="font-size:0.8125rem"><code>nav · 0.8125rem</code> Le texte de démonstration</div><div class="ty" style="font-size:0.75rem"><code>caption · 0.75rem</code> Le texte de démonstration</div><div class="ty" style="font-size:0.875rem"><code>small · 0.875rem</code> Le texte de démonstration</div><div class="ty" style="font-size:1rem"><code>body · 1rem</code> Le texte de démonstration</div><div class="ty" style="font-size:1.125rem"><code>lead · 1.125rem</code> Le texte de démonstration</div><div class="ty" style="font-size:1.25rem"><code>title-sm · 1.25rem</code> Le texte de démonstration</div><div class="ty" style="font-size:1.5rem"><code>title · 1.5rem</code> Le texte de démonstration</div><div class="ty" style="font-size:1.875rem"><code>h2 · 1.875rem</code> Le texte de démonstration</div><div class="ty" style="font-size:clamp(1.55rem, 3.6vw, 3rem)"><code>h1 · clamp(1.55rem, 3.6vw, 3rem)</code> Le texte de démonstration</div><div class="ty" style="font-size:3.75rem"><code>display · 3.75rem</code> Le texte de démonstration</div>
+<h2 id="exemples">Exemples de composants</h2>
+<p class="lead">Les classes <code>ds-*</code> sont définies à la fin de <code>css/tokens.css</code>.</p>
+<h3>Bandeau d'accueil</h3>
+<div class="ds-hero" style="border-radius:var(--ds-radius-3xl);padding:28px 22px"><h1 style="color:#fff;margin:0 0 14px;font-size:2.4rem;line-height:.98">De la terre<br>à votre table</h1><a class="ds-btn-cta" style="text-decoration:none" href="#">Voir les produits</a></div>
+<h3>Pastilles, recherche et boutons</h3>
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+  <span class="ds-chip">Arbres fruitiers</span><span class="ds-chip">Plantes comestibles</span><span class="ds-chip">Herbes aromatiques</span>
+  <input class="ds-search" placeholder="Rechercher une plante, un terreau…" style="min-width:260px">
+  <button class="ds-btn-primary" style="border:0;font:inherit;font-weight:600">Ma sélection</button>
+  <button class="ds-btn-cta" style="border:0;font:inherit;font-weight:700">Commander</button>
+</div>
+<h3>Titres</h3>
+<h2 style="margin:0">Commander en trois étapes</h2><p>Texte courant en Source Sans 3, gris ardoise foncé sur fond blanc.</p>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+  const toast = document.getElementById('toast');
+  document.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-copy]'); if (!el) return;
+    if (navigator.clipboard) navigator.clipboard.writeText(el.dataset.copy).catch(() => {});
+    toast.textContent = 'Copié : ' + el.dataset.copy; toast.classList.add('on'); setTimeout(() => toast.classList.remove('on'), 1400);
+  });
+</script>
+</body>
+</html>

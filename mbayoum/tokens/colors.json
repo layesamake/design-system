@@ -1,0 +1,99 @@
+{
+  "$description": "Couleurs relevées sur mbayoumkeur.shop (boutique de plantes, Sénégal). Noms repris de la feuille de style du site (leaf, carrot, sun).",
+  "colors": {
+    "leaf": {
+      "50": {
+        "value": "#F2F9EA",
+        "role": "Fond des pastilles de catégories, fond doux"
+      },
+      "100": {
+        "value": "#E1F1CD",
+        "role": "Bordure des pastilles de catégories"
+      },
+      "500": {
+        "value": "#479A05",
+        "role": "Vert vif (accents, survol)"
+      },
+      "600": {
+        "value": "#3A7D04",
+        "role": "Vert principal : bouton « Ma sélection », bordure au focus, cartes de catégories"
+      },
+      "700": {
+        "value": "#2B6403",
+        "role": "Vert foncé : élément actif de la barre du bas, texte d'accent"
+      },
+      "900": {
+        "value": "#04481A",
+        "role": "Vert très profond : bandeau d'accueil, titres, texte sur pastilles claires"
+      }
+    },
+    "accent": {
+      "carrot": {
+        "value": "#FC7404",
+        "role": "Orange carotte : appel à l'action principal (« Voir les produits »)"
+      },
+      "sun": {
+        "value": "#F2A900",
+        "role": "Jaune soleil : accent chaud, étoiles, mises en avant"
+      },
+      "sun-soft": {
+        "value": "#F3D27A",
+        "role": "Jaune doux : fonds et halos autour du logo"
+      }
+    },
+    "neutral": {
+      "white": {
+        "value": "#FFFFFF",
+        "role": "Fond de page, cartes, texte sur vert profond"
+      },
+      "slate-100": {
+        "value": "#F1F5F9",
+        "role": "Fond de section discret"
+      },
+      "slate-500": {
+        "value": "#64748B",
+        "role": "Texte tertiaire"
+      },
+      "slate-600": {
+        "value": "#475569",
+        "role": "Texte secondaire"
+      },
+      "slate-700": {
+        "value": "#334155",
+        "role": "Texte soutenu"
+      },
+      "slate-800": {
+        "value": "#1E293B",
+        "role": "Texte principal du corps de page"
+      },
+      "gray-200": {
+        "value": "#E5E7EB",
+        "role": "Bordure standard des champs"
+      },
+      "gray-400": {
+        "value": "#9CA3AF",
+        "role": "Texte d'aide dans les champs"
+      },
+      "ink": {
+        "value": "#171717",
+        "role": "Noir doux"
+      }
+    },
+    "state": {
+      "danger": {
+        "value": "#991B1B",
+        "role": "Erreur, suppression"
+      },
+      "whatsapp": {
+        "value": "#25D366",
+        "role": "Bouton de commande WhatsApp (couleur de la marque WhatsApp)"
+      }
+    }
+  },
+  "gradients": {
+    "hero-overlay": {
+      "value": "rgba(4, 72, 26, 0.9)",
+      "role": "Voile vert profond (90 %) sur les photos du bandeau ; variantes 60 % et 95 %"
+    }
+  }
+}
