@@ -1,0 +1,42 @@
+{
+  "designSystems": [
+    {
+      "id": "poulayo",
+      "name": "Poulayo",
+      "description": "Vert forêt profond et orange vif sur fond crème : un style chaleureux et rassurant pour une application mobile de terrain (élevage avicole).",
+      "version": "0.1.0",
+      "created": "2026-11-18",
+      "mood": [
+        "chaleureux",
+        "naturel",
+        "rassurant"
+      ],
+      "tags": [
+        "agriculture",
+        "mobile-first",
+        "gestion",
+        "accessible"
+      ],
+      "source": {
+        "type": "original",
+        "url": null,
+        "note": "Extrait de l'application Poulayo (saas/web-admin)."
+      },
+      "license": "Création originale (tokens, couleurs, illustrations) ; Nunito OFL 1.1 ; icônes Lucide ISC (voir NOTICE.md)",
+      "keyColors": {
+        "primaire": "#193C2B",
+        "accent": "#E46D2E",
+        "fond": "#FFFDF8",
+        "succès": "#2E7D32",
+        "erreur": "#C62828"
+      },
+      "fonts": [
+        "Nunito (variable 400–900)"
+      ],
+      "icons": [
+        "Lucide (100 icônes)",
+        "Illustrations d'espèces (8)"
+      ]
+    }
+  ]
+}

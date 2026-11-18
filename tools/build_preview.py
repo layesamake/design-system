@@ -12,8 +12,9 @@ Lit, dans le dossier du projet :
 """
 import argparse, html, json, os, re, sys
 
-if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8')
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, 'reconfigure'):
+        _stream.reconfigure(encoding='utf-8')
 
 
 def load_json(path):

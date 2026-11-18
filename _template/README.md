@@ -1,10 +1,11 @@
 # Design system « NOM DU PROJET »
 
-> Dossier modèle : copiez-le sous le nom du projet (`cp -r _template mon-projet`), remplissez les fichiers ci-dessous, puis générez l'aperçu.
+> Dossier modèle : copiez-le sous le **nom court du design system** (`cp -r _template mon-nom`, en minuscules, chiffres et tirets), remplissez les fichiers ci-dessous, puis générez l'aperçu et le catalogue.
 
 ## Organisation
 
 ```
+design-system.json  fiche d'identité (nom, ambiance, tags, SOURCE, licence, couleurs clés)
 fonts/            polices auto-hébergées (woff2) + leur licence
 css/fonts.css     @font-face
 css/tokens.css    variables CSS (--ds-couleur-nom, rayons, ombres…)
@@ -16,7 +17,8 @@ NOTICE.md         licences des éléments tiers (polices, icônes)
 
 ## À faire pour un nouveau projet
 
-1. Copier ce dossier et le renommer.
+1. Copier ce dossier et le renommer (le nom du dossier = l'identifiant, égal au champ `id` de la fiche).
+1b. Remplir `design-system.json` : surtout la **source** et la licence.
 2. Déposer les polices dans `fonts/` et décrire leur `@font-face` dans `css/fonts.css`.
 3. Renseigner les couleurs dans `tokens/colors.json` (groupe → nom → `value`, `role`, `usage` facultatif), puis les reporter en variables dans `css/tokens.css`.
 4. Renseigner `tokens/typography.json` et `tokens/shape.json`.
@@ -24,9 +26,9 @@ NOTICE.md         licences des éléments tiers (polices, icônes)
 6. Mettre à jour `NOTICE.md` avec les licences.
 7. Générer l'aperçu depuis la racine du dépôt :
    ```bash
-   python tools/build_preview.py mon-projet --title "Design system Mon projet"
+   python tools/build_preview.py mon-nom --title "Design system Mon nom"
    ```
-8. Ajouter une ligne au tableau du README racine.
+8. Mettre à jour le catalogue : `python tools/build_catalog.py` (README et galerie `index.html` de la racine).
 
 ## Règles de nommage
 

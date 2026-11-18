@@ -1,19 +1,40 @@
-# Design systems
+# Bibliothèque de design systems
 
-Polices, couleurs et icônes réutilisables, un dossier par projet.
+Des design systems (polices, couleurs, icônes) à réutiliser dans mes projets. Un dossier par design system, identifié par un **nom court en minuscules** ; sa fiche `design-system.json` décrit l'ambiance, la source et la licence.
 
-| Dossier | Projet | Contenu |
-|---|---|---|
-| [`poulayo/`](poulayo/) | Poulayo (gestion d'élevage avicole, mobile-first) | Nunito, 75 couleurs, 100 icônes Lucide, 8 illustrations d'espèces, aperçu HTML |
+## Catalogue
 
-## Ajouter un projet
+| Nom | Ambiance | Tags | Source | Aperçu |
+|---|---|---|---|---|
+| [**Poulayo**](./poulayo/) — Vert forêt profond et orange vif sur fond crème : un style chaleureux et rassurant pour une application mobile de terrain (élevage avicole). | chaleureux, naturel, rassurant | agriculture, mobile-first, gestion, accessible | Création originale | [voir](./poulayo/preview/index.html) |
 
-1. Copier le modèle : `cp -r _template mon-projet` (voir [`_template/README.md`](_template/README.md) pour le détail).
-2. Remplir les polices, tokens, icônes et `NOTICE.md`.
-3. Générer l'aperçu : `python tools/build_preview.py mon-projet --title "Design system Mon projet"` (Python 3 seulement, aucune dépendance).
-4. Ajouter une ligne au tableau ci-dessus.
+## Réutiliser un design system dans un autre projet
+
+```bash
+# copie le design system « poulayo » dans ../mon-projet/design-system/poulayo/
+python tools/use.py poulayo ../mon-projet
+```
+
+Puis, dans le projet : `<link rel="stylesheet" href="design-system/poulayo/css/fonts.css">` et `…/css/tokens.css`. Les tokens JSON (`tokens/`) servent pour Tailwind, Style Dictionary ou Figma.
+
+## Ajouter un design system
+
+1. `cp -r _template mon-nom` : le nom du dossier est son identifiant (minuscules, chiffres, tirets ; court et mémorable).
+2. Remplir `design-system.json` (nom, description, ambiance, tags, **source**, licence, couleurs clés), puis les polices, tokens, icônes et `NOTICE.md`.
+3. `python tools/build_preview.py mon-nom` génère l'aperçu du design system.
+4. `python tools/build_catalog.py` met à jour ce catalogue et la galerie `index.html`.
+
+## Règles pour un dépôt public
+
+- Toujours renseigner la **source** : `original` (créé par moi), `inspired` (inspiré d'un site ou produit : indiquer l'URL) ou `third-party` (système publié par un tiers : respecter sa licence).
+- On peut recopier des couleurs, des échelles de texte, des rayons et des ombres. On ne recopie **pas** des polices payantes, ni les icônes ou illustrations d'un autre produit sans licence qui l'autorise : on référence le nom de la police ou le lien à la place.
+- Chaque dossier garde ses licences tierces dans son `NOTICE.md`.
 
 ## Outils
 
-- [`tools/build_preview.py`](tools/build_preview.py) : génère `preview/index.html` d'un projet à partir de ses `tokens/` et de ses `icons/`.
-- [`_template/`](_template/) : dossier de départ vide.
+- `tools/build_catalog.py` : catalogue (README, galerie, `catalog.json`).
+- `tools/build_preview.py <dossier>` : aperçu d'un design system.
+- `tools/use.py <nom> <projet>` : copie un design system dans un projet.
+- `_template/` : dossier de départ.
+
+_Ce fichier est généré par `tools/build_catalog.py` : ne le modifiez pas à la main._

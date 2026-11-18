@@ -1,0 +1,33 @@
+{
+  "id": "nom-court",
+  "name": "Nom affiché",
+  "description": "Une ou deux phrases : l'impression que donne ce design et pour quel usage.",
+  "version": "0.1.0",
+  "created": "AAAA-MM-JJ",
+  "mood": [
+    "ambiance 1",
+    "ambiance 2"
+  ],
+  "tags": [
+    "domaine",
+    "plateforme"
+  ],
+  "source": {
+    "type": "original",
+    "url": null,
+    "note": "original = créé par moi ; inspired = inspiré d'un site/produit (mettre l'URL) ; third-party = système publié par un tiers (respecter sa licence)"
+  },
+  "license": "Licence du design et des éléments tiers (détail dans NOTICE.md)",
+  "keyColors": {
+    "primaire": "#000000",
+    "accent": "#666666",
+    "fond": "#FFFFFF",
+    "texte": "#111111"
+  },
+  "fonts": [
+    "Nom de la police"
+  ],
+  "icons": [
+    "Nom du jeu d'icônes"
+  ]
+}
